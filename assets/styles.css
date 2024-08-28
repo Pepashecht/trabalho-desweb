@@ -1,0 +1,49 @@
+.alinhamento {
+  text-align: center;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+img {
+  border: solid black;
+  border-radius: 10%;
+}
+
+body {
+  background-color: rgb(255, 191, 0);
+}
+
+button {
+  background-color: gray;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+#botão1:hover {
+  background-image: url(/assets/media/irmã.jpeg);
+}
+
+#botão2:hover {
+  background-image: url(/assets/media/festa.JPG);
+}
+
+#botão3:hover {
+  background-image: url(/assets/media/mesdavoca.jpeg);
+}
+
+#botão4:hover {
+  background-image: url(/assets/media/ferias.jpg);
+}
