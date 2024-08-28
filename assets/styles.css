@@ -17,19 +17,29 @@ img {
 
 body {
   background-color: rgb(255, 191, 0);
+  font-family: Arial, sans-serif;
 }
 
 button {
-  background-color: gray;
+  background-color: #ffcc00; /* More attractive color */
+  font-family: "Arial", sans-serif; /* More attractive font */
   font-size: 20px;
   padding: 20px;
   width: 200px;
   height: 150px;
   border: none;
   border-radius: 10%;
-  color: white;
+  color: #0009;
   background-size: cover;
-  transition: background-image 0.3s ease;
+  transition: background-image 0.3s ease, background-color 0.3s ease,
+    color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: transparent;
+  color: transparent;
 }
 
 #botão1:hover {
@@ -46,4 +56,19 @@ button {
 
 #botão4:hover {
   background-image: url(/assets/media/ferias.jpg);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+ul li strong {
+  font-size: 20px;
+  color: #333;
 }
